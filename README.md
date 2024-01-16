@@ -25,7 +25,7 @@ Mediapipe 偵測手掌後，會在手掌與手指上產生 21 個具有 x、y、
 ![ai-mediapipe-hand-01](https://github.com/LonelyCaesar/Hand-tracking-mini-game/assets/101235367/5d0079bd-4f3e-49e2-bff1-a471cee6e5a2)
 
 # 三、實作
-1.	貪吃蛇小遊戲：
+## 1.	貪吃蛇小遊戲：
 
 用手控制蛇頭，指尖碰觸到的食物獲得一分，食物就會隨機切換位置，蛇身就變長。指尖停止移動或撞到蛇身會顯示遊戲結束與成績或按R從頭開始。(按ESC鍵結束畫面視窗) 
 
@@ -159,7 +159,7 @@ cv2.destroyAllWindows()
 
 ![螢幕擷取畫面 (2873) 拷貝](https://github.com/LonelyCaesar/Hand-tracking-mini-game/assets/101235367/ba92060b-52ec-4db0-a825-359eda7ef92f)
 
-2.	桌上冰球互動小遊戲：
+## 2.	桌上冰球互動小遊戲：
 
 左右球拍可以用手上下移動、圖片是球，被球拍撞到後反彈則獲得一分，下面則次紀錄次數，球超出外界就會顯示遊戲結束與成績或按R從頭開始。(按ESC鍵結束畫面視窗)
 
