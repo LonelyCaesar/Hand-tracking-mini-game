@@ -30,7 +30,7 @@ Mediapipe 偵測手掌後，會在手掌與手指上產生 21 個具有 x、y、
 用手控制蛇頭，指尖碰觸到的食物獲得一分，食物就會隨機切換位置，蛇身就變長。指尖停止移動或撞到蛇身會顯示遊戲結束與成績或按R從頭開始。(按ESC鍵結束畫面視窗) 
 
 程式碼：
-‵‵‵　python
+```python
 import math
 import random
 import cv2
@@ -154,4 +154,4 @@ while True:
 #釋放頻資源
 cap.release()
 cv2.destroyAllWindows()
-‵‵‵
+```
