@@ -2,7 +2,7 @@
 # 一、說明
 本專題使用anaconda3.9以上版本、mediapipg、openCV製作出貪吃蛇小遊戲、桌上撞球的互動小遊戲。
 
-套件安裝準備：
+#### 套件安裝準備：
 Jupyter 本身是一個 Python 的編輯環境，如果直接安裝 mediapipe 可能會導致運作時互相衝突，因此需要先安裝 mediapipe 的虛擬環境，在上面安裝 mediapipe 後就能正常運行。
 1.	請到anaconda官方網站下載軟體，到桌面開啟cmd執行conda create --name mediapipe python=3.9。
 2.	輸入conda activate mediapipe或pip install mediapipe指令安裝套件。
@@ -12,7 +12,7 @@ Jupyter 本身是一個 Python 的編輯環境，如果直接安裝 mediapipe �
 # 二、相關文章
 使用 MediaPipe進行手掌的偵測，再透過 OpenCV 讀取攝影鏡頭影像進行辨識，在手掌與每隻手指標記骨架。
 
-文章：
+#### 文章：
 
 MediaPipe Hands 利用多個模型協同工作，可以偵測手掌模型，返回手掌與每隻手指精確的 3D 關鍵點，MediaPipe Hand 除了可以偵測清晰的手掌形狀與動作，更可以判斷出被少部分被遮蔽的手指形狀和動作，再清晰的畫面下，針對手掌判斷的精準度可達 95.7%。
 
@@ -25,11 +25,11 @@ Mediapipe 偵測手掌後，會在手掌與手指上產生 21 個具有 x、y、
 ![ai-mediapipe-hand-01](https://github.com/LonelyCaesar/Hand-tracking-mini-game/assets/101235367/5d0079bd-4f3e-49e2-bff1-a471cee6e5a2)
 
 # 三、實作
-## 1.	貪吃蛇小遊戲：
+### 1.	貪吃蛇小遊戲：
 
 用手控制蛇頭，指尖碰觸到的食物獲得一分，食物就會隨機切換位置，蛇身就變長。指尖停止移動或撞到蛇身會顯示遊戲結束與成績或按R從頭開始。(按ESC鍵結束畫面視窗) 
 
-程式碼：
+### 程式碼：
 ```python
 import math
 import random
@@ -155,15 +155,15 @@ while True:
 cap.release()
 cv2.destroyAllWindows()
 ```
-執行結果：
+### 執行結果：
 
 ![螢幕擷取畫面 (2873) 拷貝](https://github.com/LonelyCaesar/Hand-tracking-mini-game/assets/101235367/ba92060b-52ec-4db0-a825-359eda7ef92f)
 
-## 2.	桌上冰球互動小遊戲：
+### 2.	桌上冰球互動小遊戲：
 
 左右球拍可以用手上下移動、圖片是球，被球拍撞到後反彈則獲得一分，下面則次紀錄次數，球超出外界就會顯示遊戲結束與成績或按R從頭開始。(按ESC鍵結束畫面視窗)
 
-程式碼：
+### 程式碼：
 
 ```python
 import cv2
@@ -253,7 +253,7 @@ cap.release()
 cv2.destroyAllWindows()
 ```
 
-執行結果：
+#### 執行結果：
 
 ![螢幕擷取畫面 (2874) 拷貝](https://github.com/LonelyCaesar/Hand-tracking-mini-game/assets/101235367/60d78387-74ca-451a-93a9-91ae38a06be7)
 
@@ -261,6 +261,6 @@ cv2.destroyAllWindows()
 本專案就到這邊，對此作品能夠帶給自己的成就，身體力行與研究學習很重要，為自己的作品展示出更好的加分。
 
 # 五、參考
-https://www.jb51.net/article/246585.htm#_lab2_1_1(桌上推球)
+[[桌上推球]https://www.jb51.net/article/246585.htm#_lab2_1_1]
 
-https://www.jb51.net/article/240489.htm(貪吃蛇)
+[[貪吃蛇]https://www.jb51.net/article/240489.htm]
