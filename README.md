@@ -165,7 +165,7 @@ cv2.destroyAllWindows()
 
 程式碼：
 
-```pyhton
+```python
 import cv2
 import cvzone
 from cvzone.HandTrackingModule import HandDetector
@@ -252,6 +252,7 @@ while True:
 cap.release()
 cv2.destroyAllWindows()
 ```
+
 執行結果：
 
 ![螢幕擷取畫面 (2874) 拷貝](https://github.com/LonelyCaesar/Hand-tracking-mini-game/assets/101235367/60d78387-74ca-451a-93a9-91ae38a06be7)
