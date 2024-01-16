@@ -261,6 +261,6 @@ cv2.destroyAllWindows()
 本專案就到這邊，對此作品能夠帶給自己的成就，身體力行與研究學習很重要，為自己的作品展示出更好的加分。
 
 # 五、參考
-[桌上推球(https://www.jb51.net/article/246585.htm#_lab2_1_1)]
+[桌上推球](https://www.jb51.net/article/246585.htm#_lab2_1_1)
 
-[貪吃蛇(https://www.jb51.net/article/240489.htm)]
+[貪吃蛇](https://www.jb51.net/article/240489.htm)
